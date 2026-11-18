@@ -4,6 +4,8 @@ A mission-control style web console for an alpine downhill: a 3D replay on **rea
 
 > **Concept demo.** Athlete data is synthetic (physics simulation on real terrain). The course geometry comes from OpenStreetMap ("Piste Nationale"), not the official homologated line. Gates and the three jumps are synthetic.
 
+**Live:** https://arnaudjdf.github.io/alpine-telemetry-crans-montana/  ·  how it is built: [`/#about`](https://arnaudjdf.github.io/alpine-telemetry-crans-montana/#about)
+
 ## Run
 
 ```bash
