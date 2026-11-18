@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#070b13" />
+  <meta name="description" content="3D telemetry and raw-log analysis console for an alpine downhill on real Crans-Montana terrain. Synthetic data, concept demo." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23070b13'/%3E%3Cpath d='M4 24 14 8l5 8 3-4 6 12z' fill='none' stroke='%23ff7a1a' stroke-width='2'/%3E%3C/svg%3E" />
+  <title>Alpine Telemetry · Crans-Montana</title>
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="head">
+      <button class="icon only-narrow" id="btn-left" aria-label="Toggle controls">☰</button>
+      <div class="brand">
+        <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M4 24 14 8l5 8 3-4 6 12z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <div><b>ALPINE·TELEMETRY</b><small>Crans-Montana 2027 · Data storytelling console</small></div>
+      </div>
+      <div class="pill" id="pill">SYNTHETIC DATA · REAL TERRAIN</div>
+      <div class="course" id="courseinfo"></div>
+      <a class="about-btn" id="btn-about" href="#about" aria-haspopup="dialog" title="How it's built (key ?)">ⓘ <span>How it's built</span></a>
+      <button class="icon only-narrow" id="btn-right" aria-label="Toggle telemetry">▤</button>
+    </header>
+    <aside class="left" id="left" aria-label="Controls"></aside>
+    <main class="stage" id="stage"><div class="viewport" id="viewport"></div><div class="overlay" id="overlay"></div></main>
+    <aside class="right" id="right" aria-label="Telemetry"></aside>
+    <footer class="transport" id="transport"></footer>
+    <div class="status" id="status"></div>
+    <div class="scrim" id="scrim"></div>
+    <div class="loading" id="loading"><div><div class="spin"></div><p id="loadmsg">Starting…</p></div></div>
+    <div class="dropzone" id="dropzone">Drop NDJSON logger files to analyse them</div>
+    <div class="toast" id="toast" role="status"></div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

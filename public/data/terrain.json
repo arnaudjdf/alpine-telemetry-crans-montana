@@ -1,0 +1,17 @@
+{
+  "latMin": 46.3,
+  "latMax": 46.35,
+  "lonMin": 7.455,
+  "lonMax": 7.52,
+  "cols": 650,
+  "rows": 700,
+  "unit": "decimetre",
+  "encoding": "uint16-le row-major, north to south",
+  "minElevation": 763.2603191299295,
+  "maxElevation": 2505.2374053650765,
+  "sources": [
+    "AWS Terrain Tiles (terrarium)",
+    "swisstopo SWISSIMAGE",
+    "OpenStreetMap contributors (ODbL)"
+  ]
+}

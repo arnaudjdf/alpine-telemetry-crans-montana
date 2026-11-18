@@ -1,0 +1,29 @@
+{
+  "name": "alpine-telemetry-crans-montana",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mission-control style 3D telemetry & log-analysis console for an alpine downhill run, on real Crans-Montana terrain.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "data:fetch": "node scripts/fetch-data.mjs",
+    "data:feeds": "tsx scripts/generate-feeds.ts",
+    "data:narrate": "tsx scripts/narrate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  }
+}

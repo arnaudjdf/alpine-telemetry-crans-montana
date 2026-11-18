@@ -1,0 +1,46 @@
+{
+  "event": "FIS Alpine World Championships Crans-Montana 2027 (concept demo)",
+  "date": "2027-02-06",
+  "course": "Piste Nationale",
+  "disclaimer": "Synthetic data: physics-based simulation on real terrain. Course geometry from OpenStreetMap, not the official line.",
+  "athletes": [
+    {
+      "bib": 7,
+      "name": "Athlete 07",
+      "nation": "SUI",
+      "color": "#ff7a1a",
+      "src": "LLAD-07",
+      "file": "bib07.ndjson",
+      "startEpoch": 1801911600
+    },
+    {
+      "bib": 12,
+      "name": "Athlete 12",
+      "nation": "AUT",
+      "color": "#38bdf8",
+      "src": "LLAD-12",
+      "file": "bib12.ndjson",
+      "startEpoch": 1801911695
+    },
+    {
+      "bib": 21,
+      "name": "Athlete 21",
+      "nation": "NOR",
+      "color": "#a3e635",
+      "src": "LLAD-21",
+      "file": "bib21.ndjson",
+      "startEpoch": 1801911790
+    },
+    {
+      "bib": 33,
+      "name": "Athlete 33",
+      "nation": "FRA",
+      "color": "#f472b6",
+      "src": "LLAD-33",
+      "file": "bib33.ndjson",
+      "startEpoch": 1801911885
+    }
+  ],
+  "timingFile": "timing.csv",
+  "sampleRate": 20
+}
